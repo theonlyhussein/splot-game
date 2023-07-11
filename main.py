@@ -132,7 +132,9 @@ def spin(balance):
     print(f"You won on lines:", *winning_lines)
     return winnings - total_bet
 
-
+"""
+    Main function to run the slot machine game.
+"""
 def main():
     balance = deposit()
     while True:
@@ -144,8 +146,5 @@ def main():
 
     print(f"You left with ${balance}")
 
-"""
-    Main function to run the slot machine game.
-"""
 if __name__ == "__main__":
     main()
